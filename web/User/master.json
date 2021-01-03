@@ -27,14 +27,14 @@
         "all_stims": {
           "stimuli_1.csv": "cue,answer,\r\nA,Apple,\r\nB,Banana,\r\n,,"
         },
-        "public_key": "NJ2Jrlj7X0WbvsMUTaeS3UeN+bD8aUoLiYW+ujAyASo=",
+        "public_key": "uu/p2R8Ul1yBIKOaIe3MiUeU4eYhR9BWeGfaXnOYxTg=",
         "surveys": {},
         "trialtypes": {
           "instruct": "<!--\n/*  Collector (Garcia, Kornell, Kerr, Blake & Haffey)\n    A program for running experiments on the web\n    Copyright 2012-2016 Mikey Garcia & Nate Kornell\n\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License version 3 as published by\n    the Free Software Foundation.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see <http://www.gnu.org/licenses/>\n \t\t\n\t\tKitten/Cat release (2019-2021) author: Dr. Anthony Haffey (team@someopen.solutions)\t\t\n*/\n-->\n<style>\n#instruct_text{\n  margin:auto;\n  width:500px;\n  padding:50px;\n  max-height:600px;\n  text-align: center;  \n}\n#proceed_button{\n  position:absolute;\n  right: 20px;\n}\n#trial_contents{\n  position: absolute;\n  top:0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin:auto;\n  width:600;\n  height:600;\n}\n</style>\n<div id=\"trial_contents\">\n  <div id=\"instruct_text\">{{text}}</div>\n  <div>\n    <button class=\"btn btn-primary\" id=\"proceed_button\" onclick=\"Trial.submit()\">Proceed</button>\n  </div>\n</div>"
         },
         "location": "haffey-studies/cat_attempt_1/test_pipeline",
         "storage_scripts": {
-          "ocollector.org": "https://ocollector.org/StoreData10_aodirnkcu73hsjd8.php"
+          "ocollector.org": "https://ocollector.org/StoreData_Cat_0_ahsd8elnqwhela0w8emzbxvaow.php"
         },
         "procs_csv": {},
         "stims_csv": {}
@@ -1511,8 +1511,13 @@
   },
   "autoloaded_mods": {},
   "keys": {
-    "archived": [],
-    "public_key": "NJ2Jrlj7X0WbvsMUTaeS3UeN+bD8aUoLiYW+ujAyASo="
+    "archived": [
+      {
+        "public_key": "NJ2Jrlj7X0WbvsMUTaeS3UeN+bD8aUoLiYW+ujAyASo="
+      }
+    ],
+    "public_key": "uu/p2R8Ul1yBIKOaIe3MiUeU4eYhR9BWeGfaXnOYxTg=",
+    "encrypted_private_key": "U2FsdGVkX19NCeHkZFdfZUPUNIE85tb5FOpbCguGaC2IbU4lWy4UvcYspTzXxD8cIUaZuo2yCDGTMw5KOkEsEA=="
   },
   "pathway_mgmt": {
     "pathways": {}
