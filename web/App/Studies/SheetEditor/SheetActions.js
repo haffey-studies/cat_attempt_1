@@ -485,12 +485,12 @@ $("#run_btn").on("click",function(){
                         ".github.io"           + "/" +
                         github_json.repository + "/" +
                         "web"                  + "/" +
-                        "App"                  + "/" +  
+                        "App"                  + "/" +
                         "RunStudy.html?platform=github&"    +
 												"location="                         +
                           $("#experiment_list").val() + "&" +
 												"name="                             +
-                          master_json.exp_mgmt.exp_condition;
+                          conditions[0].name;
 
 
 			bootbox.dialog({
@@ -532,7 +532,8 @@ $("#run_btn").on("click",function(){
             ".github.io"                        + "/" +
             github_json.repository              + "/" +
             "web"                               + "/" +
-            Collector.version                   + "/" +  "RunStudy.html?platform=github&"    +
+            "App"                               + "/" +
+            "RunStudy.html?platform=github&"    +
 						"location="                         +
               $("#experiment_list").val() + "&" +
 						"name="                             +
